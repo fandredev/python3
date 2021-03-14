@@ -1,0 +1,118 @@
+1
+  Escreva um programa que solicite o nome e o sobrenome do usuário.
+  Ao final o programa deverá apresentar o nome completo do usuário na tela.
+
+
+2 
+  Faça um programa que solicite três números inteiros do usuário e imprima a soma destes.
+
+3  
+  Escreva um programa que peça o nome e a idade do usuário. 
+  Caso a idade do usuário seja maior ou igual a 18 anos apresente a seguinte mensagem: 
+  "Seja bem-vindo ao nosso site [nome]!"; 
+  caso contrário, apresente a seguinte mensagem: 
+  "Você não pode acessar nosso site [nome].".
+4 
+  Escreva um programa que peça um número inteiro do usuário e mostre se esse número é par ou ímpar. 
+  A mensagem na tela deverá seguir o seguinte formato:
+  "O número [número] é [par/ímpar]"
+
+5 
+ O Índice de Massa Corporal (IMC) é utilizado para mensurar o peso ideal de uma pessoa. 
+ Escreva um programa que peça o nome, a idade , o peso e a altura do usuário. Ao final calcule e mostre o resultado do seu IMC e classifique este resultado de acordo com a regra a seguir.
+
+  IMC<17 - Muito abaixo do peso ideal
+
+  17<=IMC<18,5 - Abaixo do peso
+
+  18,5<=IMC<25 - Peso normal
+
+  25<=IMC<30 - Acima do peso
+
+  30<=IMC<35 - Obesidade I
+
+  35<=IMC<40 - Obesidade II (severa)
+
+  IMC>=40 - Obesidade III (mórbida)
+
+
+
+  Lembre que: IMC=massa/(altura*altura)
+
+
+6
+  Escreva um programa que receba dois números de ponto flutuante e mostre na tela o maior número digitado. 
+  Considere a possibilidade de o usuário digitar dois números iguais.
+
+7
+  Escreva um programa que inverta uma string
+
+8
+  Escreva um script que mostre na tela o preço de um produto associado a uma categoria especificada pelo usuário. Utilize como referência as informações a seguir. Caso o usuário não digite uma categoria válida (número entre 1 e 10) mostre na tela uma mensagem personalizada.
+
+9
+
+  Escreva um script para classificar um triângulo de acordo com o tamanho dos seus lados. Considere as seguintes informações:
+
+  Triângulo equilátero: todos os lados possuem o mesmo tamanho;
+
+  Trângulo escaleno: todos os lados possuem medidas diferentes;
+
+  Triângulo isósceles: caracterizado por ter dois lados com o mesmo tamanho.
+
+10
+  Utilize a função range() e escreva uma lista com uma série de 1950 a 2020. Sua lista deve ter o formato a seguir:
+
+  serie=[1951, 1952, 1953, 1954, 1955,  
+       1956, 1957, 1958, 1959, 1960, 
+       1961, 1962, 1963, 1964, 1965, 
+       1966, 1967, 1968, 1969, 1970, 
+       1971, 1972, 1973, 1974, 1975, 
+       1976, 1977, 1978, 1979, 1980, 
+       1981, 1982, 1983, 1984, 1985, 
+       1986, 1987, 1988, 1989, 1990, 
+       1991, 1992, 1993, 1994, 1995, 
+       1996, 1997, 1998, 1999, 2000, 
+       2001, 2002, 2003, 2004, 2005, 
+       2006, 2007, 2008, 2009, 2010, 
+       2011, 2012, 2013, 2014, 2015, 
+       2016, 2017, 2018, 2019, 2020]
+11
+  A partir da lista abaixo obtenha apenas a string "Python".
+
+  lista=[
+      'a','b','c',([
+          [[[[['a'],[-90,33,33,['Python']],[0,1,2]],[4,4]],[],'u'],[]]
+      ]),{'a':1,'c':2},3
+  ]
+
+12
+  Considere a tupla1 e responda as seguintes questões:
+
+
+  tupla1=('A','B','A','Z','Z','X','A','E','K','G','H')
+
+  a) mostre na tela o tamanho desta tupla;
+
+  b) ordene a tupla e mostre o resultado na tela;
+
+  c) mostre na tela o número de ocorrências da string 'A';
+
+  d) mostre na tela o número de ocorrências da string 'B';
+
+  e) mostre na tela o índice da string 'X';
+
+  f) mostre na tela o último elemento da tupla1.
+
+13
+  Mude a chave 'valor' do dicionário produto1 para 99.98.
+
+  produto1={
+      'nome':'produto1',
+      'tipo':'categoriaA',
+      'valor':'50.5',
+      'fornecedor':'ABCD',
+  }
+
+14
+  Verifique se uma lista é vazia ou não. Caso a lista seja vazia, mostre True na tela, caso contrário False.
