@@ -4,51 +4,50 @@
   and, or, not, in e not in
 '''
 
-# name = input('Digite seu nome iniciando com a letra \'F\': ')
-# surname = input('Digite seu sobrenome: ')
-
-number = 5
-
-array = (1,2,3,4)
-
+a = b = 2
+c = 3
+d = ''
+name = 'Felipe André'
+system_administrator = 'Guilherme'
 
 
-'''
-  Operador AND
 
-  # VERDADEIRO E VERDADEIRO = VERDADEIRO
-  # VERDADEIRO E FALSO = FALSO
+# No AND as duas comparações precisam ser verdadeiras
 
-'''
-if number > 2 and number >= 5:
-    print('Operador AND pegando')
+compare = a == b and b < c  # True
 
+# No OR uma das duas comparações precisam ser verdadeiras
 
-'''
-  Apenas um precisa ser verdadeiro
+compare = a == b or b > c # True
+ 
 
-  OPERADOR OR
-'''
-
-if number > 2 or number == 10:
-    print('Operador OR pegando')
+print('{0} {1}'.format(a,b))
+print(f'Comparação AND: {compare}')
+print(f'Comparação OR: {compare}')
 
 
-'''
- Nega a operação TRUE
+# O Not faz a inversão de valores
 
-  OPERADOR NOT
-'''
+if not 2 > 1: # False
+    print('Sim, 2 é maior que um')
+else:
+    print('Operador not')
 
-if not number != 5:
-    print('Operador NOT pegando')
+if not d:
+    print('Variavel d está vazia')
 
-    
-'''
- Verifica se um valor esta numa variavel
 
-  OPERADOR IN
-'''
+# O operador IN verifica se algo está contido dentro de uma expressao
 
-if 5 in array.index('5'):
-    print('Operador IN pegando')
+if 'qF' in name:
+    print('O F contem na variavel name')
+else:
+    print('Não existe!')
+
+
+# O operador NOT IN faz a inversão de valores
+
+if 'Guilherme' not in name:
+    print('O operador do sistema não está aqui')
+else:
+    print('O operador do sistema {n} está aqui.'.format(n = system_administrator))
