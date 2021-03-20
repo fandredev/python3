@@ -23,7 +23,7 @@ if len(hour) == 2 and hour.isnumeric():
         print('Boa tarde')
     else:
         print('Boa noite')
-        
+
 else:
     print('Algum erro ocorreu. Contate o administrador do sistema.')
 

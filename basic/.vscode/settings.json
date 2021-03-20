@@ -1,0 +1,21 @@
+{
+  "editor.fontFamily": "'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.minimap.enabled": false,
+  "editor.fontSize": 16,
+  "code-runner.clearPreviousOutput": true,
+  "editor.formatOnSave": true,
+  "python.linting.pylintArgs": [
+    "--load-plugins=pylint_django",
+    "--errors-only"
+  ],
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python"
+  },
+  "editor.rulers": [79],
+  "git.enableSmartCommit": true,
+  "python.pythonPath": "/bin/python3",
+  "code-runner.executorMap": {
+    "python": "./venv/bin/python -u"
+  }
+}
